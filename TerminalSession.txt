@@ -1,32 +1,3 @@
-
-~/cli-basics-assignment-anniechan23$ pwd
-/home/runner/cli-basics-assignment-anniechan23
-~/cli-basics-assignment-anniechan23$ mkdir CLIBasicsFolder
-~/cli-basics-assignment-anniechan23$ ls
-CLIBasicsFolder  README.md  TerminalSession.txt
-~/cli-basics-assignment-anniechan23$ cd CLIBasicsFolder
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ touch myfile.txt
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ echo Annie Chan ICS4U1b >> myfile.txt
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ cat myfile.txt
-Annie Chan ICS4U1b
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ ls
-myfile_copy.txt  myfile.txt
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ mv myfile2.txt ~/myfile2.txt
-~/cli-basics-assignment-anniechan23/CLIBasicsFolder$ cd ~
-~$ ls
-cli-basics-assignment-anniechan23  _test_runner.py
-myfile2.txt
-~$ cd cli-basics-assignment-anniechan23
-~/cli-basics-assignment-anniechan23$ rm CLIBasicsFolder/myfile.txt
-~/cli-basics-assignment-anniechan23$ rm -r CLIBasicsFolder
-~/cli-basics-assignment-anniechan23$ cd~
-bash: cd~: command not found
-~/cli-basics-assignment-anniechan23$ cd ~
-~$ ls
-cli-basics-assignment-anniechan23  _test_runner.py
-myfile2.txt
 ~/cli-basics-assignment-anniechan23$ pwd
 /home/runner/cli-basics-assignment-anniechan23
 ~/cli-basics-assignment-anniechan23$ mkdir CLIBasicsFolder
